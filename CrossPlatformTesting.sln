@@ -16,11 +16,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDevelopTesting", "..\..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchClassLibrary", "..\..\MonoProjects\CrossPlatformTesting\MonoTouchClassLibrary\MonoTouchClassLibrary.csproj", "{EE739487-89C4-4A67-ADF0-14D0F815FD44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchTesting", "..\..\MonoProjects\CrossPlatformTesting\MonoTouchTesting\MonoTouchTesting.csproj", "{6C5EFC93-6676-453E-9120-0DE50EEBB472}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 		Default|Any CPU = Default|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -29,6 +37,24 @@ Global
 		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Debug|iPhone.Build.0 = Debug|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Default|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Default|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Release|iPhone.ActiveCfg = Release|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Release|iPhone.Build.0 = Release|iPhone
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{6C5EFC93-6676-453E-9120-0DE50EEBB472}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{E9327AF8-8398-4171-BA1A-E1FF7F17AD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9327AF8-8398-4171-BA1A-E1FF7F17AD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9327AF8-8398-4171-BA1A-E1FF7F17AD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,7 +73,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = StandardClassLibrary\StandardClassLibrary.csproj
+		StartupItem = ..\..\MonoProjects\CrossPlatformTesting\MonoTouchTesting\MonoTouchTesting.csproj
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = CrossPlatformTesting.vsmdi
