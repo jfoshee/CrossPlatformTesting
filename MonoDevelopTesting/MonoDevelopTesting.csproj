@@ -38,8 +38,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WidgetTest.cs" />
     <Compile Include="MicrosoftToNunitAttributeShims.cs" />
+    <Compile Include="..\VisualStudioTesting\WidgetTest.cs">
+      <Link>WidgetTest.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
