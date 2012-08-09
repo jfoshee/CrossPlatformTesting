@@ -80,6 +80,9 @@
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
     <Reference Include="MonoTouch.NUnitLite" />
+    <Reference Include="FluentAssertions">
+      <HintPath>..\packages\FluentAssertions.1.7.1.1\Lib\net35\FluentAssertions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -87,6 +90,18 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="..\VisualStudioTesting\WidgetTest.cs">
+      <Link>WidgetTest.cs</Link>
+    </Compile>
+    <Compile Include="..\MonoDevelopTesting\MicrosoftToNunitAttributeShims.cs">
+      <Link>MicrosoftToNunitAttributeShims.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\MonoTouchClassLibrary\MonoTouchClassLibrary.csproj">
+      <Project>{EE739487-89C4-4A67-ADF0-14D0F815FD44}</Project>
+      <Name>MonoTouchClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
