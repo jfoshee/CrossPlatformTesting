@@ -1,6 +1,6 @@
-using System;
 using NUnit.Framework;
 using StandardClassLibrary;
+using FluentAssertions;
 
 namespace MonoDevelopTesting
 {
@@ -11,6 +11,13 @@ namespace MonoDevelopTesting
         public void DefaultConstruction()
         {
             var subject = new Widget();
+        }
+
+        [Test]
+        public void FluentTest()
+        {
+            var subject = new Widget();
+            subject.Should().NotBeNull();
         }
     }
 }
