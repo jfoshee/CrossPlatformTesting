@@ -12,23 +12,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDevelopTesting", "..\..\MonoProjects\CrossPlatformTesting\MonoDevelopTesting\MonoDevelopTesting.csproj", "{0C9B58DF-B709-4670-A3DD-06023E3B0990}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = CrossPlatformTesting.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9B58DF-B709-4670-A3DD-06023E3B0990}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E9327AF8-8398-4171-BA1A-E1FF7F17AD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9327AF8-8398-4171-BA1A-E1FF7F17AD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9327AF8-8398-4171-BA1A-E1FF7F17AD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9327AF8-8398-4171-BA1A-E1FF7F17AD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27350B0-BC25-4A88-9417-A3EADA2C6293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = StandardClassLibrary\StandardClassLibrary.csproj
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CrossPlatformTesting.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
