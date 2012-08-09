@@ -1,19 +1,13 @@
-using NUnit.Framework;
-using StandardClassLibrary;
 using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using StandardClassLibrary;
 
 namespace MonoDevelopTesting
 {
-    [TestFixture]
+    [TestClass]
     public class WidgetTest
     {
-        [Test]
-        public void DefaultConstruction()
-        {
-            var subject = new Widget();
-        }
-
-        [Test]
+        [TestMethod]
         public void FluentTest()
         {
             var subject = new Widget();
