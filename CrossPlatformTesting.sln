@@ -20,6 +20,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchClassLibrary", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchTesting", "..\..\MonoProjects\CrossPlatformTesting\MonoTouchTesting\MonoTouchTesting.csproj", "{6C5EFC93-6676-453E-9120-0DE50EEBB472}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDCD9BC2-D601-4ECB-BB7B-B74BB9BBA368}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\MonoProjects\CrossPlatformTesting\readme.md = ..\..\MonoProjects\CrossPlatformTesting\readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
