@@ -14,13 +14,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioTesting", "Visu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MonoDevelop", "MonoDevelop", "{100254FE-9CAD-4738-8D8F-BECA0B89BBD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchClassLibrary", "..\..\MonoProjects\CrossPlatformTesting\MonoTouchClassLibrary\MonoTouchClassLibrary.csproj", "{EE739487-89C4-4A67-ADF0-14D0F815FD44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchClassLibrary", "MonoTouchClassLibrary\MonoTouchClassLibrary.csproj", "{EE739487-89C4-4A67-ADF0-14D0F815FD44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchTesting", "..\..\MonoProjects\CrossPlatformTesting\MonoTouchTesting\MonoTouchTesting.csproj", "{6C5EFC93-6676-453E-9120-0DE50EEBB472}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouchTesting", "MonoTouchTesting\MonoTouchTesting.csproj", "{6C5EFC93-6676-453E-9120-0DE50EEBB472}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDCD9BC2-D601-4ECB-BB7B-B74BB9BBA368}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\MonoProjects\CrossPlatformTesting\readme.md = ..\..\MonoProjects\CrossPlatformTesting\readme.md
+		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDevelopTesting", "MonoDevelopTesting\MonoDevelopTesting.csproj", "{0C9B58DF-B709-4670-A3DD-06023E3B0990}"
@@ -93,6 +93,6 @@ Global
 		{0C9B58DF-B709-4670-A3DD-06023E3B0990} = {100254FE-9CAD-4738-8D8F-BECA0B89BBD0}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = ..\..\MonoProjects\CrossPlatformTesting\MonoTouchTesting\MonoTouchTesting.csproj
+		StartupItem = MonoTouchTesting\MonoTouchTesting.csproj
 	EndGlobalSection
 EndGlobal
