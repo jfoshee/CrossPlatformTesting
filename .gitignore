@@ -1,6 +1,7 @@
 [Oo]bj
 [Bb]in
 TestResults
+TestResult.xml
 *.user
 *.suo
 *.[Cc]ache
