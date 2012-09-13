@@ -1,0 +1,7 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="Build">
+    <MSBuild Projects="StandardClassLibrary/StandardClassLibrary.csproj" />
+    <MSBuild Projects="VisualStudioTesting/VisualStudioTesting.csproj" />
+    <MSBuild Projects="MonoDevelopTesting/MonoDevelopTesting.csproj" />  
+  </Target>
+</Project>
