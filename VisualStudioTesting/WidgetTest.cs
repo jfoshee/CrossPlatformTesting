@@ -11,6 +11,7 @@ namespace VisualStudioTesting
         public void FluentTest()
         {
             var subject = new Widget();
+            // foo
             subject.Should().NotBeNull();
         }
     }
