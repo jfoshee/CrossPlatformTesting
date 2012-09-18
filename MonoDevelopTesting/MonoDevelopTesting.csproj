@@ -41,9 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MicrosoftToNunitAttributeShims.cs" />
-    <Compile Include="..\VisualStudioTesting\WidgetTest.cs">
-      <Link>WidgetTest.cs</Link>
-    </Compile>
+    <Compile Include="..\VisualStudioTesting\*.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

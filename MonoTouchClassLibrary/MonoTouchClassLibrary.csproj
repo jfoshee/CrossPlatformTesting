@@ -37,8 +37,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="..\StandardClassLibrary\Widget.cs">
-      <Link>Widget.cs</Link>
-    </Compile>
+    <Compile Include="..\StandardClassLibrary\*.cs" />
   </ItemGroup>
 </Project>
